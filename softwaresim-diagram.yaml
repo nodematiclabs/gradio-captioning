@@ -1,0 +1,573 @@
+mouseWheel:
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: 94
+  verticalOffset: -139
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #cc6300;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp);"></div><div
+        class="c-text"><div class="c-title">Gradio Web App</div><div
+        class="c-short-description">DIY image captioning app use Hugging Face
+        libraries</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Gradio</div></div></div></div></div>'
+    id: GradioPyveK
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gradio
+        shortDescription: DIY image captioning app use Hugging Face libraries
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Gradio
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gradio
+      editableName: Gradio Web App
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Gradio
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Gradio_sopopl.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Gradio__044448_nl26fc.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Gradio_Black_87_mxkdr2.webp
+      color: "#cc6300"
+      controlText: Gradio
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 316
+    offsetY: 207
+    zIndex: 0
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorXdCgg
+      - Dashed Straight Nondirectional Connectorhm4UR
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Docker_Black_87_xpuvlp.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Docker_gnh7eh.webp);
+        border-radius: 50%"></div></div></div>'
+    id: DockerVRFQU
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: Docker
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Docker_gnh7eh.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Docker__044448_env9qq.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Docker_Black_87_xpuvlp.webp
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+    width: 100
+    height: 100
+    offsetX: 495
+    offsetY: 207
+    zIndex: 1
+    inEdges:
+      - Dashed Straight Nondirectional Connectorhm4UR
+    outEdges:
+      - Orthogonal ConnectorSuqN9
+      - Dashed Orthogonal ConnectorKxwqD
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_run_Black_87_egowtg.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_run_icgqao.webp);"></div><div
+        class="c-text"><div class="c-title">Google Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud Runhw8TP
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Run
+      editableName: Google Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Run
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/cloud_run_icgqao.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/cloud_run__044448_vfqzy2.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/cloud_run_Black_87_egowtg.webp
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 300
+    height: 100
+    offsetX: 750
+    offsetY: 135
+    zIndex: 2
+    inEdges:
+      - Orthogonal ConnectorSuqN9
+      - Dashed Straight Connectorls4WG
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B; border-radius:
+        50%"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Hugging_face_Black_87_l3pdsp.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Hugging_face_rssxni.webp);
+        border-radius: 50%"></div></div></div>'
+    id: Hugging FaceUQ1VG
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Hugging Face
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 3
+      imgUrl: https://static.softwaresim.com/logos/webp/Hugging_face_rssxni.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Hugging_face__044448_dhzej2.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Hugging_face_Black_87_l3pdsp.webp
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: false
+      collapsedToCircle: true
+      latitude: null
+      longitude: null
+    width: 100
+    height: 100
+    offsetX: 463
+    offsetY: 278
+    zIndex: 6
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorXdCgg
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/artifact_registry_Black_87_icthnc.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/artifact_registry_pq6vpa.webp);"></div><div
+        class="c-text"><div class="c-title">Google Artifact Registry</div><div
+        class="c-short-description">Storing, managing, and securing software
+        artifacts, such as container images and language packages</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Artifact RegistryU4REa
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Artifact Registry
+        shortDescription: Storing, managing, and securing software artifacts, such as
+          container images and language packages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Artifact Registry
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Artifact Registry
+      editableName: Google Artifact Registry
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Artifact Registry
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/artifact_registry_pq6vpa.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/artifact_registry__044448_hdcc5a.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/artifact_registry_Black_87_icthnc.webp
+      color: "#3871e0"
+      controlText: Artifact Registry
+      selectedDynamicsView: 0
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 300
+    height: 100
+    offsetX: 750
+    offsetY: 278
+    zIndex: 9
+    inEdges:
+      - Dashed Orthogonal ConnectorKxwqD
+    outEdges:
+      - Dashed Straight Connectorls4WG
+connectors:
+  - id: Orthogonal ConnectorSuqN9
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 545
+      y: 207
+    targetPoint:
+      x: 600
+      y: 135
+    sourceID: DockerVRFQU
+    targetID: Google Cloud Runhw8TP
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight Nondirectional ConnectorXdCgg
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 316
+      y: 207
+    targetPoint:
+      x: 463
+      y: 278
+    sourceID: GradioPyveK
+    targetID: Hugging FaceUQ1VG
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight Nondirectional Connectorhm4UR
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 316
+      y: 207
+    targetPoint:
+      x: 495
+      y: 207
+    sourceID: GradioPyveK
+    targetID: DockerVRFQU
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Dashed Orthogonal ConnectorKxwqD
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 545
+      y: 207
+    targetPoint:
+      x: 600
+      y: 278
+    sourceID: DockerVRFQU
+    targetID: Google Artifact RegistryU4REa
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Straight Connectorls4WG
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 750
+      y: 228
+    targetPoint:
+      x: 750
+      y: 185
+    sourceID: Google Artifact RegistryU4REa
+    targetID: Google Cloud Runhw8TP
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+selectedItems:
+  width: 0
+  height: 0
